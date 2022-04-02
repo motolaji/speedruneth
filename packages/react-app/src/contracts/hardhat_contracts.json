@@ -1,0 +1,368 @@
+{
+  "4": {
+    "rinkeby": {
+      "name": "rinkeby",
+      "chainId": "4",
+      "contracts": {
+        "ExampleExternalContract": {
+          "address": "0xa06Ba9c9175322d91DfA5E9fc2FBd25F1d10a288",
+          "abi": [
+            {
+              "inputs": [],
+              "name": "complete",
+              "outputs": [],
+              "stateMutability": "payable",
+              "type": "function"
+            },
+            {
+              "inputs": [],
+              "name": "completed",
+              "outputs": [
+                {
+                  "internalType": "bool",
+                  "name": "",
+                  "type": "bool"
+                }
+              ],
+              "stateMutability": "view",
+              "type": "function"
+            }
+          ]
+        },
+        "Staker": {
+          "address": "0x3be9D7C57fadF4D2B9B788eDCb040b7083df66f3",
+          "abi": [
+            {
+              "inputs": [
+                {
+                  "internalType": "address",
+                  "name": "exampleExternalContractAddress",
+                  "type": "address"
+                }
+              ],
+              "stateMutability": "nonpayable",
+              "type": "constructor"
+            },
+            {
+              "anonymous": false,
+              "inputs": [
+                {
+                  "indexed": false,
+                  "internalType": "address",
+                  "name": "sender",
+                  "type": "address"
+                },
+                {
+                  "indexed": false,
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "name": "Stake",
+              "type": "event"
+            },
+            {
+              "inputs": [
+                {
+                  "internalType": "address",
+                  "name": "",
+                  "type": "address"
+                }
+              ],
+              "name": "balances",
+              "outputs": [
+                {
+                  "internalType": "uint256",
+                  "name": "",
+                  "type": "uint256"
+                }
+              ],
+              "stateMutability": "view",
+              "type": "function"
+            },
+            {
+              "inputs": [],
+              "name": "deadline",
+              "outputs": [
+                {
+                  "internalType": "uint256",
+                  "name": "",
+                  "type": "uint256"
+                }
+              ],
+              "stateMutability": "view",
+              "type": "function"
+            },
+            {
+              "inputs": [],
+              "name": "exampleExternalContract",
+              "outputs": [
+                {
+                  "internalType": "contract ExampleExternalContract",
+                  "name": "",
+                  "type": "address"
+                }
+              ],
+              "stateMutability": "view",
+              "type": "function"
+            },
+            {
+              "inputs": [],
+              "name": "execute",
+              "outputs": [],
+              "stateMutability": "nonpayable",
+              "type": "function"
+            },
+            {
+              "inputs": [],
+              "name": "openForWithdraw",
+              "outputs": [
+                {
+                  "internalType": "bool",
+                  "name": "",
+                  "type": "bool"
+                }
+              ],
+              "stateMutability": "view",
+              "type": "function"
+            },
+            {
+              "inputs": [],
+              "name": "stake",
+              "outputs": [],
+              "stateMutability": "payable",
+              "type": "function"
+            },
+            {
+              "inputs": [],
+              "name": "threshold",
+              "outputs": [
+                {
+                  "internalType": "uint256",
+                  "name": "",
+                  "type": "uint256"
+                }
+              ],
+              "stateMutability": "view",
+              "type": "function"
+            },
+            {
+              "inputs": [],
+              "name": "timeLeft",
+              "outputs": [
+                {
+                  "internalType": "uint256",
+                  "name": "",
+                  "type": "uint256"
+                }
+              ],
+              "stateMutability": "view",
+              "type": "function"
+            },
+            {
+              "inputs": [
+                {
+                  "internalType": "address payable",
+                  "name": "_to",
+                  "type": "address"
+                }
+              ],
+              "name": "withdraw",
+              "outputs": [],
+              "stateMutability": "nonpayable",
+              "type": "function"
+            },
+            {
+              "stateMutability": "payable",
+              "type": "receive"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "31337": {
+    "localhost": {
+      "name": "localhost",
+      "chainId": "31337",
+      "contracts": {
+        "ExampleExternalContract": {
+          "address": "0xb7278A61aa25c888815aFC32Ad3cC52fF24fE575",
+          "abi": [
+            {
+              "inputs": [],
+              "name": "complete",
+              "outputs": [],
+              "stateMutability": "payable",
+              "type": "function"
+            },
+            {
+              "inputs": [],
+              "name": "completed",
+              "outputs": [
+                {
+                  "internalType": "bool",
+                  "name": "",
+                  "type": "bool"
+                }
+              ],
+              "stateMutability": "view",
+              "type": "function"
+            }
+          ]
+        },
+        "Staker": {
+          "address": "0xCD8a1C3ba11CF5ECfa6267617243239504a98d90",
+          "abi": [
+            {
+              "inputs": [
+                {
+                  "internalType": "address",
+                  "name": "exampleExternalContractAddress",
+                  "type": "address"
+                }
+              ],
+              "stateMutability": "nonpayable",
+              "type": "constructor"
+            },
+            {
+              "anonymous": false,
+              "inputs": [
+                {
+                  "indexed": false,
+                  "internalType": "address",
+                  "name": "sender",
+                  "type": "address"
+                },
+                {
+                  "indexed": false,
+                  "internalType": "uint256",
+                  "name": "value",
+                  "type": "uint256"
+                }
+              ],
+              "name": "Stake",
+              "type": "event"
+            },
+            {
+              "inputs": [
+                {
+                  "internalType": "address",
+                  "name": "",
+                  "type": "address"
+                }
+              ],
+              "name": "balances",
+              "outputs": [
+                {
+                  "internalType": "uint256",
+                  "name": "",
+                  "type": "uint256"
+                }
+              ],
+              "stateMutability": "view",
+              "type": "function"
+            },
+            {
+              "inputs": [],
+              "name": "deadline",
+              "outputs": [
+                {
+                  "internalType": "uint256",
+                  "name": "",
+                  "type": "uint256"
+                }
+              ],
+              "stateMutability": "view",
+              "type": "function"
+            },
+            {
+              "inputs": [],
+              "name": "exampleExternalContract",
+              "outputs": [
+                {
+                  "internalType": "contract ExampleExternalContract",
+                  "name": "",
+                  "type": "address"
+                }
+              ],
+              "stateMutability": "view",
+              "type": "function"
+            },
+            {
+              "inputs": [],
+              "name": "execute",
+              "outputs": [],
+              "stateMutability": "nonpayable",
+              "type": "function"
+            },
+            {
+              "inputs": [],
+              "name": "openForWithdraw",
+              "outputs": [
+                {
+                  "internalType": "bool",
+                  "name": "",
+                  "type": "bool"
+                }
+              ],
+              "stateMutability": "view",
+              "type": "function"
+            },
+            {
+              "inputs": [],
+              "name": "stake",
+              "outputs": [],
+              "stateMutability": "payable",
+              "type": "function"
+            },
+            {
+              "inputs": [],
+              "name": "threshold",
+              "outputs": [
+                {
+                  "internalType": "uint256",
+                  "name": "",
+                  "type": "uint256"
+                }
+              ],
+              "stateMutability": "view",
+              "type": "function"
+            },
+            {
+              "inputs": [],
+              "name": "timeLeft",
+              "outputs": [
+                {
+                  "internalType": "uint256",
+                  "name": "",
+                  "type": "uint256"
+                }
+              ],
+              "stateMutability": "view",
+              "type": "function"
+            },
+            {
+              "inputs": [
+                {
+                  "internalType": "address payable",
+                  "name": "_to",
+                  "type": "address"
+                }
+              ],
+              "name": "withdraw",
+              "outputs": [],
+              "stateMutability": "nonpayable",
+              "type": "function"
+            },
+            {
+              "stateMutability": "payable",
+              "type": "receive"
+            }
+          ]
+        }
+      }
+    }
+  }
+}
